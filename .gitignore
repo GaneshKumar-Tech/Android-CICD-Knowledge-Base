@@ -1,34 +1,99 @@
-# Gradle files
+# =========================
+# Gradle / Kotlin
+# =========================
 .gradle/
+.kotlin/
 build/
+**/build/
 
-# Local configuration file (sdk path, etc)
+# =========================
+# Local configuration
+# =========================
 local.properties
 
-# Log/OS Files
+# =========================
+# Logs / OS files
+# =========================
 *.log
+.DS_Store
+Thumbs.db
 
-# Android Studio generated files and folders
+# =========================
+# Android Studio generated
+# =========================
 captures/
 .externalNativeBuild/
 .cxx/
-*.aab
+out/
+
+# =========================
+# Build artifacts
+# =========================
 *.apk
+*.aab
+*.ap_
 output-metadata.json
 
-# IntelliJ
+# =========================
+# IntelliJ / Android Studio
+# =========================
 *.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
-# Keystore files
+# =========================
+# Keystore / Signing files
+# =========================
 *.jks
 *.keystore
+*.pem
+*.key
 
-# Google Services (e.g. APIs or Firebase)
+# =========================
+# Google / Firebase
+# =========================
 google-services.json
+firebase.json
 
-# Android Profiling
+# =========================
+# Profiling / Performance
+# =========================
 *.hprof
+
+# =========================
+# CI/CD temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+
+# =========================
+# Fastlane
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# =========================
+# Jenkins
+# =========================
+.jenkins/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Linux / macOS temporary
+# =========================
+*.swp
+*.swo
